@@ -29,14 +29,8 @@ export default function Navbar() {
       </div>
 
       {/* Mobile Menu */}
-      {isOpen && (
-        <div className="md:hidden bg-blue-700">
-          <a href="#" className="block px-4 py-2 hover:bg-blue-800">Home</a>
-          <a href="#" className="block px-4 py-2 hover:bg-blue-800">About</a>
-          <a href="#" className="block px-4 py-2 hover:bg-blue-800">Services</a>
-          <a href="#" className="block px-4 py-2 hover:bg-blue-800">Contact</a>
-        </div>
-      )}
+      
+      
     </nav>
   );
 }
