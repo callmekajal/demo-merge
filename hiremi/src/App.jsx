@@ -7,13 +7,14 @@ import About from "./Pages/About";
 import Services from "./Pages/Services";
 import Contact from "./Pages/Contact";
 
-import './App.css'
 
 function App() {
   return (
     <>
       <Navbar />
+
       
+
       <Routes>
         <Route path="/" element={<><Home /><Careers /></>} />
         <Route path="/about" element={<About />} />
@@ -21,7 +22,9 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
 
+
       <Footer />
+
     </>
   );
 }
